@@ -1,1 +1,1 @@
-Colab required
+Colab으로 진행됩니다.
