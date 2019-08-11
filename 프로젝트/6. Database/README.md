@@ -6,5 +6,5 @@
 + healthcdc.db : 질병관리본부
 + hidoc.db : 하이닥 병원데이터
 + modoodoc.db : 병원이랑 의사 데이터
-+ patientmatching.db : 시스템 들어갈 db
-+ 대한치주과학회.db : 대한치주과학회 데이터
++ patientmatching_1.db : 시스템 들어갈 db
++ 대한치주과학회.db : 대한치주과학회 데이터 
