@@ -4,24 +4,73 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-      <link rel="stylesheet" href={{ url_for('static', filename='bootstrap/bootstrap.min.css') }}>
-      <link rel="stylesheet" href={{ url_for('static', filename='css/style.css') }}>
+
+      <link rel="stylesheet"  type="text/css" href={{ url_for('static', filename='bootstrap/bootstrap.min.css') }}>
+
+      <link rel="stylesheet" type="text/css" href={{ url_for('static', filename='css/custom.css') }}>
+
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/fontawesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css" integrity="sha256-2DoaRRHfHWna6mpfGImxAx/cu0vFGpqEkcf/YXf+yk4=" crossorigin="anonymous" />
+      <link rel="stylesheet" href="{{  url_for('static', filename="css/style.css")}}">
+      <script src="https://kit.fontawesome.com/bae619d951.js"></script>
+
       <script src="https://kit.fontawesome.com/bae619d951.js"></script>
     <title>index</title>
-  </head>
-  <body>
-    <div class="container-fluid">
-    <div id="top-menu" style="border-style: solid; height: 50px"></div>
-      {%  block contents %}
-          <!-- 수정해야할 부분 -->
-      {% endblock contents %}
-    </div>
 
+  </head>
+
+    <style>
+     body{
+              font-family: Tahoma;
+              {#background-color: #ff3139;#}
+              background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),  url("{{  url_for('static', filename="background.jpg")}}");
+              height: 100vh;
+                background-position: center;
+              background-size: cover;
+          }
+</style>
+
+  <body>
+
+{% include 'topmenu.html' %}
+
+{%  block contents %}
+      <!-- 수정해야할 부분 -->
+{% endblock contents %}
 
 
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="{{ url_for('static', filename = 'bootstrap/bootstrap.min.js') }}" ></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.js" ></script>
+<script src="{{ url_for('static', filename = 'bootstrap/bootstrap.min.js') }}" ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js" ></script>
+<script>
+
+
+  $(document).ready(function(){
+          $("#testimonial-slider").owlCarousel({
+              items: 1,
+              itemsDesktop: [1000, 3],
+              itemsDesktopSmall: [979, 2],
+              itemsTablet: [768, 2],
+              itemsMobile: [650, 1],
+              pagination: true,
+              autoPlay: false
+          })
+  });
+</script>
+<script type="text/javascript">
+$('#button1').on('click', function (event) {
+       var owl = $(".owl-carousel").data('owlCarousel');
+         owl.next()
+});
+$('#button2').on('click', function (event) {
+       var owl = $(".owl-carousel").data('owlCarousel');
+         owl.next()
+});
+</script>
+
   </body>
 </html>
