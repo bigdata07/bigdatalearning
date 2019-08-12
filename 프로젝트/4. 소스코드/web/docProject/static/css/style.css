@@ -25,16 +25,21 @@ margin-left: 50px;
  }
 
   .testimonial{
-      background-color: #feffeb;
+      background-color: #f8f9fa;
        border: 2px solid #000000;
+      height: 700px;
       text-align: left;
-      padding-top: 30px;
+      padding-top: 50px;
       padding-bottom: 20px;
       padding-left: 40px;
       padding: 0px 10px;
       margin: 0 300px 0px;
       position: relative;
       margin-top: 10px;
+  }
+
+  .testimonial ul{
+      margin-top : 20px;
   }
 
   .testimonial .icon{
