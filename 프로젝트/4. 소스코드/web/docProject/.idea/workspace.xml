@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c04d9859-42d0-43cc-b5a8-7eca2d443c1b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../../박도건" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../서동욱/수업_1주차/필기/자료/Fibonacci.ipynb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/test.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -142,7 +140,8 @@
       <workItem from="1565326217971" duration="613000" />
       <workItem from="1565573251807" duration="2787000" />
       <workItem from="1565585706999" duration="502000" />
-      <workItem from="1565601413188" duration="6986000" />
+      <workItem from="1565601413188" duration="7126000" />
+      <workItem from="1565659145349" duration="625000" />
     </task>
     <servers />
   </component>
