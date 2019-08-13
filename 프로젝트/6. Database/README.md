@@ -11,3 +11,4 @@
 + KDA.db : 대한치과협회(FAQ, 협회소식, table1 X)
 + dent.db : 협회관련정보
 + patientmatching(의사이름) : 협회 병원과 의사 데이터(의사, 임원)
++ biokin.db : 지식인 데이터
