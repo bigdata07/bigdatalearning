@@ -6,10 +6,9 @@
 + healthcdc.db : 질병관리본부
 + hidoc.db : 하이닥 병원데이터
 + modoodoc.db : 병원이랑 의사 데이터
-+ patientmatching_2.db : 시스템 들어갈 db
++ patientmatching_3(8.14).db : 시스템 들어갈 db
 + 대한치주과학회.db : 대한치주과학회 데이터
 + KDA.db : 대한치과협회(FAQ, 협회소식, table1 X)
 + dent.db : 협회관련정보
-+ patientmatching(의사이름) : 협회 병원과 의사 데이터(의사, 임원)
 + biokin.db : 지식인 데이터
-+ needHoc.db : 수집해야할 병원
++ needHoc(8.14).db : 수집해야할 병원
